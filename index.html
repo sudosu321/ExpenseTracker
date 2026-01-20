@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    
+</head>
+<body>
+    <h1>
+        Expense Tracker
+    </h1>
+    <div class="netBalance" id="netBalance">
+        Net Balance : 0
+    </div>
+    <div class="container">
+
+        <div class = "amountInput" id="amountInput">
+            <div class="header-row">
+                <div class="header">
+                    Expense :
+                </div>
+                <button type="button" id="expButton" >
+                    +
+                </button>
+            </div>
+            
+            <input type="number" class="expense" 
+            name = "amount" placeholder="enter amount"/>
+            <input type="number" class="expense" 
+            name = "amount" placeholder="enter amount"/>
+            <input type="number" class="expense" 
+            name = "amount" placeholder="enter amount"/>
+            <input type="number" class="expense" 
+            name = "amount" placeholder="enter amount"/>
+            <div id="spent">
+                Spent : 0
+            </div>
+        </div>
+        <div class = "amountEarned" id="amountEarned">
+            <div class="header-row">
+                <div class="header">
+                    Saved :
+                </div>
+
+                <button type="button" id="savedButt" >
+                    +
+                </button>
+            </div>
+            <input type="number" class="earned" 
+            name = "amount" placeholder="enter amount"/>
+            <input type="number" class="earned" 
+            name = "amount" placeholder="enter amount"/>
+            <input type="number" class="earned" 
+            name = "amount" placeholder="enter amount"/>
+            <input type="number" class="earned" 
+            name = "amount" placeholder="enter amount"/>
+            <div id="saved">
+                Saved : 0
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

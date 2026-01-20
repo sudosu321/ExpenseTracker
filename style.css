@@ -1,0 +1,75 @@
+* {
+    margin: 16px;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: xx-large;
+    color: rgb(125, 134, 255);
+    font-weight: 1000   ;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+
+h1:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.netBalance {
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+input {
+    padding: 14px;
+    font-size: 16px;
+}
+.header {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: #020617;
+    padding: 40px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.amountInput input {
+    margin-top: 20px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.amountEarned input {
+    margin-top: 20px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
